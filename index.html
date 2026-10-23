@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <title>DOM - Inputs</title>
+</head>
+<body>
+    <header> <h1>My Todo-list</h1></header>
+    <main>
+        <div>
+            <label for="textInput">Skriv in din aktivitet:</label>
+            <input type="text" id="textInput" placeholder="Skriv här...">
+            <button type="button" id="textBtn">Spara aktivitet</button>
+            <ul id="todoList">
+                    <!-- render here -->
+            </ul>
+        </div>
+
+        <div>
+            <label for="nrOne">Första talet:</label>
+            <input type="number" id="nrOne" placeholder="Skriv in talet här...">
+            <label for="nrTwo">Andra talet:</label>
+            <input type="number" id="nrTwo" placeholder="Skriv in talet här...">
+            <button id="addBtn">Addera</button>
+            <button id="multiplyBtn">Multiplicera</button>
+            <button id="substractBtn">Substrahera</button>
+            <ul id="calculations">
+                <!-- Render here -->
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
